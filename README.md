@@ -1,10 +1,6 @@
 # MAmmoTH2
 
-This repo contains the code, data, and models for "[MAmmoTH2: Scaling Instructions from the Web](https://arxiv.org/abs/2405.03548)". Our paper proposes a new paradigm to scale up high-quality instruction data from the web.
-
-<div align="center">
- 🔥 🔥 🔥 Check out our <a href = "https://tiger-ai-lab.github.io/MAmmoTH2/">[Project Page]</a> for more results and analysis! Also, our <a href="https://huggingface.co/spaces/TIGER-Lab/MAmmoTH2">Demo</a> is online!
-</div>
+This repo contains the code, data, and models for "MAmmoTH2: Scaling Instructions from the Web". Our paper proposes a new paradigm to scale up high-quality instruction data from the web.
 
 
 <p align="center">
@@ -23,20 +19,20 @@ We propose discovering instruction data from the web. We argue that vast amounts
 </div>
 </p>
 
-Part of our WebInstruct dataset has been released at [🤗 TIGER-Lab/WebInstructSub](https://huggingface.co/datasets/TIGER-Lab/WebInstructSub).
+Part of our WebInstruct dataset has been released at [WebInstructSub](https://huggingface.co/datasets/TIGER-Lab/WebInstructSub).
 
 ## Model Downloads
 
 <div align="center">
 
-| **Model**            | **Dataset**                                            | **Init Model** | **Download**   |
-| :------------:       | :------------:                                         | :------------: | :------------: |
-| MAmmoTH2-8x7B        | WebInstruct                                            | Mixtral-8x7B   | [🤗 HuggingFace](https://huggingface.co/TIGER-Lab/MAmmoTH2-8x7B)   |
-| MAmmoTH2-7B          | WebInstruct                                            | Mistral-7B-v0.2| [🤗 HuggingFace](https://huggingface.co/TIGER-Lab/MAmmoTH2-7B)   |
-| MAmmoTH2-8B          | WebInstruct                                            | Llama-3-base   | [🤗 HuggingFace](https://huggingface.co/TIGER-Lab/MAmmoTH2-8B)   |
-| MAmmoTH2-8x7B-Plus   | WebInstruct + OpenHermes2.5 + CodeFeedback + Math-Plus | MAmmoTH2-8x7B  | [🤗 HuggingFace](https://huggingface.co/TIGER-Lab/MAmmoTH2-8x7B-Plus)   |
-| MAmmoTH2-7B-Plus     | WebInstruct + OpenHermes2.5 + CodeFeedback + Math-Plus | MAmmoTH2-7B    | [🤗 HuggingFace](https://huggingface.co/TIGER-Lab/MAmmoTH2-7B-Plus)   |
-| MAmmoTH2-8B-Plus     | WebInstruct + OpenHermes2.5 + CodeFeedback + Math-Plus | MAmmoTH2-8B    | [🤗 HuggingFace](https://huggingface.co/TIGER-Lab/MAmmoTH2-8-Plus)   |
+| **Model**            | **Dataset**                                            | **Init Model** |
+| :------------:       | :------------:                                         | :------------: | 
+| MAmmoTH2-8x7B        | WebInstruct                                            | Mixtral-8x7B   |
+| MAmmoTH2-7B          | WebInstruct                                            | Mistral-7B-v0.2|
+| MAmmoTH2-8B          | WebInstruct                                            | Llama-3-base   |
+| MAmmoTH2-8x7B-Plus   | WebInstruct + OpenHermes2.5 + CodeFeedback + Math-Plus | MAmmoTH2-8x7B  |
+| MAmmoTH2-7B-Plus     | WebInstruct + OpenHermes2.5 + CodeFeedback + Math-Plus | MAmmoTH2-7B    |
+| MAmmoTH2-8B-Plus     | WebInstruct + OpenHermes2.5 + CodeFeedback + Math-Plus | MAmmoTH2-8B    | 
 
 </div>
 
@@ -81,16 +77,6 @@ For the 7B/8B-scale models:
 | MAmmoTH2-8B-Plus        | 32.5      | 42.8 | 84.1  | 37.3 | 65.7    | 67.8 | 83.4  | 59.1 |
 
 ## Evaluation Command
-Please refer to https://github.com/TIGER-AI-Lab/MAmmoTH2/tree/main/math_eval. 
+Please refer to math_eval. 
 
-## Cite our paper
-Please cite our paper if you use our data, model or code. Please also kindly cite the original dataset papers.
-```
-@article{yue2024mammoth2,
-  title={MAmmoTH2: Scaling Instructions from the Web},
-  author={Yue, Xiang and Zheng, Tuney and Zhang, Ge and Chen, Wenhu},
-  journal={arXiv preprint arXiv:2405.03548},
-  year={2024}
-}
-```
 
