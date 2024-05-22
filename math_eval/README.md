@@ -23,7 +23,7 @@ bash run_7B_moe_plus.sh
 
 ## To reproduce the results on the new MMLU-Pro dataset
 ```
-model='TTIGER-Lab/MAmmoTH2-8B-Plus'
+model='MAmmoTH2-8B-Plus'
 python run_choice.py   --model $model   --shots 5   --dataset mmlu_pro   --form short:step
 ```
 
