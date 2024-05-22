@@ -1,5 +1,0 @@
-latex2sympy2==1.9.1
-torch==2.1.2
-tqdm==4.66.2
-transformers==4.39.3
-vllm==0.4.0.post1
