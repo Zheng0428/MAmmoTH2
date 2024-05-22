@@ -1,6 +1,6 @@
 #!/bin/bash
 
-model='TIGER-Lab/MAmmoTH2-7B'
+model='MAmmoTH2-7B'
 
 dataset='theoremqa'
 
