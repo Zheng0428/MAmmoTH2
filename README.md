@@ -19,7 +19,7 @@ We propose discovering instruction data from the web. We argue that vast amounts
 </div>
 </p>
 
-Part of our WebInstruct dataset has been released at [WebInstructSub](https://huggingface.co/datasets/TIGER-Lab/WebInstructSub).
+Part of our WebInstruct dataset has been released at WebInstructSub.
 
 ## Model Downloads
 
